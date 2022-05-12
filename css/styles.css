@@ -1,0 +1,65 @@
+.container
+{
+  padding: 25px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50;
+  background: rgb(250, 187, 187);
+  border-radius: 10px;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #000000;
+  color: rgb(221, 173, 173);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 4px;
+  padding: 10px 25px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+
+ol li:nth-child(even) {
+  background: #d09d9d;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+
+li :hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
+
+li > crossOutButton{
+  background: none;
+  border: none;
+  float: right;
+  color: #ffffff;
+  font-weight: 800;
+}
